@@ -1,14 +1,37 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "id": 1,
+  "address": {
+    "id": 1,
+    "city": "seattle",
+    "country": "USA",
+    "postalCode": "12345",
+    "stateProvince": "WA",
+    "street": "somestreet",
+    "unit": "12345"
+  },
+  "name": "somename",
+  "payments": [
+    {
+      "id": 1,
+      "cardExpirationDate": "2020-06-20T01:29:27.699Z",
+      "cardNumber": "12345678910",
+      "cardName": "VISA"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "profiles": [
+    {
+      "id": 0,
+      "email": "test@test.com",
+      "name": {
+        "id": 1,
+        "family": "Bouldin",
+        "given": "Tiffany",
+        "profileId": 1
+      },
+      "phone": "123456789",
+      "age": "25",
+      "image": "",
+      "accountId": 1
+    }
+  ]
 }
