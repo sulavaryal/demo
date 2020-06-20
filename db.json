@@ -3,57 +3,57 @@
  {
   "id": 1,
   "address": {
-    "id": 0,
-    "city": "string",
-    "country": "string",
-    "postalCode": "string",
-    "stateProvince": "string",
-    "street": "string",
-    "unit": "string"
+    "id": 1,
+    "city": "Dallas",
+    "country": "USA",
+    "postalCode": "12345",
+    "stateProvince": "Texas",
+    "street": "123 testing street",
+    "unit": "123"
   },
-  "name": "string",
+  "name": "Ken Endo",
   "payments": [
     {
       "id": 1,
       "cardExpirationDate": "2020-06-20T01:42:15.898Z",
-      "cardNumber": "string",
-      "cardName": "string"
+      "cardNumber": "923456789123456",
+      "cardName": "VISA"
     },
     {
       "id": 2,
       "cardExpirationDate": "2020-06-20T01:42:15.898Z",
-      "cardNumber": "string",
-      "cardName": "string"
+      "cardNumber": "923456789123456",
+      "cardName": "MASTERCARD"
     }
   ],
   "profiles": [
     {
       "id": 1,
-      "email": "string",
+      "email": "test1@test.com",
       "name": {
-        "id": 0,
-        "family": "string",
-        "given": "string",
-        "profileId": 0
+        "id": 1,
+        "family": "last1",
+        "given": "first1",
+        "profileId": 1
       },
-      "phone": "string",
-      "age": "string",
+      "phone": "123456789",
+      "age": "25",
       "image": "string",
-      "accountId": 0
+      "accountId": 1
     },
      {
-      "id": 2,
-      "email": "string",
+      "id": 1,
+      "email": "test2@test.com",
       "name": {
-        "id": 0,
-        "family": "string",
-        "given": "string",
-        "profileId": 0
+        "id": 2,
+        "family": "last2",
+        "given": "first2",
+        "profileId": 2
       },
-      "phone": "string",
-      "age": "string",
+      "phone": "123456789",
+      "age": "25",
       "image": "string",
-      "accountId": 0
+      "accountId": 1
     }
   ]
 }
