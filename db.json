@@ -1,37 +1,292 @@
 {
-  "id": 1,
-  "address": {
+"Lodging":[
+  {
     "id": 1,
-    "city": "seattle",
-    "country": "USA",
-    "postalCode": "12345",
-    "stateProvince": "WA",
-    "street": "somestreet",
-    "unit": "12345"
-  },
-  "name": "Tiffany",
-  "payments": [
-    {
+    "location": {
       "id": 1,
-      "cardExpirationDate": "2020-06-20T01:29:27.699Z",
-      "cardNumber": "12345678910",
-      "cardName": "VISA"
-    }
-  ],
-  "profiles": [
-    {
-      "id": 0,
-      "email": "test@test.com",
-      "name": {
+      "address": {
         "id": 1,
-        "family": "Bouldin",
-        "given": "Tiffany",
-        "profileId": 1
+        "city": "Buena Vista",
+        "country": "United States",
+        "postalCode": "81211",
+        "stateProvince": "CO",
+        "street": "30500 Co Rd 383",
+        "locationId": 1
       },
-      "phone": "123456789",
-      "age": "25",
-      "image": "",
-      "accountId": 1
-    }
-  ]
+      "latitude": 0,
+      "locale": null,
+      "longitude": 0
+    },
+    "name": "Quiet Forest Lodge",
+    "description": "A quiet lodge with a nearby forest. Great for outdoor activities.",
+    "rentals": [
+      {
+        "id": 4,
+        "name": null,
+        "description": null,
+        "rentalUnit": {
+          "id": 1,
+          "bathrooms": [
+            {
+              "id": 1,
+              "fixture": 1
+            },
+            {
+              "id": 2,
+              "fixture": 2
+            }
+          ],
+          "bedrooms": [
+            {
+              "id": 1,
+              "bedType": "King",
+              "bedCount": 2,
+              "roomNumber": "100",
+              "count": 0
+            },
+            {
+              "id": 2,
+              "bedType": "King",
+              "bedCount": 2,
+              "roomNumber": "101",
+              "count": 0
+            }
+          ],
+          "name": "Rental Unit 1",
+          "description": "Unit for rent",
+          "occupancy": 3,
+          "rentalUnitType": "Rental unit",
+          "rentalId": 4
+        },
+        "lodgingId": 1
+      }
+    ],
+    "reviews": [
+      {
+        "id": 11,
+        "accountId": 4,
+        "comment": "I only came here for coffee.",
+        "dateCreated": "2020-06-18T11:08:19.055045",
+        "rating": 5,
+        "lodgingId": 1
+      },
+      {
+        "id": 12,
+        "accountId": 3,
+        "comment": "The nearby forest is great.",
+        "dateCreated": "2020-06-18T11:08:19.055044",
+        "rating": 8.5,
+        "lodgingId": 1
+      },
+      {
+        "id": 13,
+        "accountId": 2,
+        "comment": "I had fun.",
+        "dateCreated": "2020-06-18T11:08:19.05504",
+        "rating": 7,
+        "lodgingId": 1
+      },
+      {
+        "id": 14,
+        "accountId": 1,
+        "comment": "This lodge is fantastic!",
+        "dateCreated": "2020-06-18T11:08:19.051023",
+        "rating": 9,
+        "lodgingId": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "location": {
+      "id": 2,
+      "address": {
+        "id": 2,
+        "city": "Alma",
+        "country": "United States",
+        "postalCode": "80420",
+        "stateProvince": "CO",
+        "street": "Co Rd 19",
+        "locationId": 2
+      },
+      "latitude": 0,
+      "locale": null,
+      "longitude": 0
+    },
+    "name": "Outdoor Adventures",
+    "description": "A fun place to camp for families.",
+    "rentals": [
+      {
+        "id": 2,
+        "name": null,
+        "description": null,
+        "rentalUnit": {
+          "id": 2,
+          "bathrooms": [
+            {
+              "id": 3,
+              "fixture": 1
+            },
+            {
+              "id": 4,
+              "fixture": 2
+            }
+          ],
+          "bedrooms": [
+            {
+              "id": 3,
+              "bedType": "Queen",
+              "bedCount": 1,
+              "roomNumber": "200",
+              "count": 0
+            },
+            {
+              "id": 4,
+              "bedType": "King",
+              "bedCount": 2,
+              "roomNumber": "202",
+              "count": 0
+            }
+          ],
+          "name": "Rental Unit 1",
+          "description": "Unit for rent",
+          "occupancy": 3,
+          "rentalUnitType": "Rental unit",
+          "rentalId": 2
+        },
+        "lodgingId": 2
+      }
+    ],
+    "reviews": [
+      {
+        "id": 3,
+        "accountId": 4,
+        "comment": "Great if you have small children.",
+        "dateCreated": "2020-06-18T11:08:19.055132",
+        "rating": 8,
+        "lodgingId": 2
+      },
+      {
+        "id": 8,
+        "accountId": 3,
+        "comment": "This is a fun place",
+        "dateCreated": "2020-06-18T11:08:19.055132",
+        "rating": 7,
+        "lodgingId": 2
+      },
+      {
+        "id": 9,
+        "accountId": 2,
+        "comment": "My mom made me go and I hated it.",
+        "dateCreated": "2020-06-18T11:08:19.055132",
+        "rating": 1,
+        "lodgingId": 2
+      },
+      {
+        "id": 10,
+        "accountId": 1,
+        "comment": "My family had a great time here.",
+        "dateCreated": "2020-06-18T11:08:19.05513",
+        "rating": 8,
+        "lodgingId": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "location": {
+      "id": 3,
+      "address": {
+        "id": 3,
+        "city": "Buena Vista",
+        "country": "United States",
+        "postalCode": "81211",
+        "stateProvince": "CO",
+        "street": "27700 County Road",
+        "locationId": 3
+      },
+      "latitude": 0,
+      "locale": null,
+      "longitude": 0
+    },
+    "name": "Epic Camp",
+    "description": "Epic Camp offers the most fantastic outdoor experience!",
+    "rentals": [
+      {
+        "id": 3,
+        "name": null,
+        "description": null,
+        "rentalUnit": {
+          "id": 3,
+          "bathrooms": [
+            {
+              "id": 5,
+              "fixture": 1
+            },
+            {
+              "id": 6,
+              "fixture": 2
+            }
+          ],
+          "bedrooms": [
+            {
+              "id": 5,
+              "bedType": "King",
+              "bedCount": 3,
+              "roomNumber": "105",
+              "count": 0
+            },
+            {
+              "id": 6,
+              "bedType": "King",
+              "bedCount": 2,
+              "roomNumber": "106",
+              "count": 0
+            }
+          ],
+          "name": "Rental Unit 1",
+          "description": "Unit for rent",
+          "occupancy": 3,
+          "rentalUnitType": "Rental unit",
+          "rentalId": 3
+        },
+        "lodgingId": 3
+      }
+    ],
+    "reviews": [
+      {
+        "id": 4,
+        "accountId": 3,
+        "comment": "Don't believe the hype.",
+        "dateCreated": "2020-06-18T11:08:19.055143",
+        "rating": 2,
+        "lodgingId": 3
+      },
+      {
+        "id": 5,
+        "accountId": 2,
+        "comment": "I was expecting more.",
+        "dateCreated": "2020-06-18T11:08:19.055142",
+        "rating": 4,
+        "lodgingId": 3
+      },
+      {
+        "id": 6,
+        "accountId": 1,
+        "comment": "It wasn't that epic.",
+        "dateCreated": "2020-06-18T11:08:19.055142",
+        "rating": 5,
+        "lodgingId": 3
+      },
+      {
+        "id": 15,
+        "accountId": 4,
+        "comment": "ITS EPIC!1!!",
+        "dateCreated": "2020-06-18T11:08:19.055143",
+        "rating": 10,
+        "lodgingId": 3
+      }
+    ]
+  }
+]
 }
